@@ -512,6 +512,11 @@ button {
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
+.form-control4 {
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+  width: 200px;
+}
 
 .scrollToTop {
   width: 40px;
@@ -587,9 +592,17 @@ a[data-lightbox]:hover img {
   position: absolute;
   left: 15px;
   right: 15px;
-  bottom: 5px;
+  bottom: -4px;
 }
-
+.lightbox-caption4 {
+  padding: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: -4px;
+}
 .close-lightbox {
   color: #fff;
   font-size: 30px;
@@ -745,6 +758,7 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
+  width: 100%;
 }
 
 .portfolio-row {
@@ -780,6 +794,7 @@ h4 {
 
 .tc-white {
   color: #ffffff !important;
+  text-align: center;
 }
 
 .btn-atomic-tangerine {
@@ -826,7 +841,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
@@ -966,6 +981,7 @@ h4 {
     overflow-x: hidden;
     -webkit-box-shadow: none;
     box-shadow: none;
+    width: 122%;
   }
   .navbar-brand img {
     max-height: 40px;
