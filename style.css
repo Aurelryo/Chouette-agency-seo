@@ -273,6 +273,7 @@ a:hover {
   margin-right: 90px;
   float: right;
   z-index: 1;
+  width: 100%;
 }
 .nav > li {
   float: left;
