@@ -670,14 +670,14 @@ h4 {
   background-color: #364577;
 }
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #bf5837;
 }
 .tc-white {
   color: #ffffff !important;
   text-align: center;
 }
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #bf5837;
   color: #ffffff !important;
 }
 .btn-atomic-tangerine:hover {
@@ -691,7 +691,7 @@ h4 {
   color: #cccccc !important;
 }
 .ltc-atomic-tangerine {
-  color: #f3976c !important;
+  color: #bf5837 !important;
 }
 .ltc-atomic-tangerine:hover {
   color: #c27956 !important;
@@ -733,12 +733,12 @@ h4 {
     width: 100%;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -756,8 +756,8 @@ h4 {
     position: relative;
   }
   .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
+    padding-left: 0;
+    padding-right: 0;
   }
   .bloc-group,
   .bloc-group .bloc {
@@ -767,8 +767,8 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media (max-width: 767px) {
@@ -844,7 +844,7 @@ h4 {
     overflow-x: hidden;
     -webkit-box-shadow: none;
     box-shadow: none;
-    width: 122%;
+    width: 150%;
   }
   .navbar-brand img {
     max-height: 40px;
